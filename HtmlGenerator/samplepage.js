@@ -2,7 +2,6 @@ function Sample() {
 var div = document.createElement("div");
 var div1 = document.createElement("div");
 var div2 = document.createElement("div");
-var div3 = document.createElement("div");
 var nav = document.createElement("nav");
 var p = document.createElement("p");
 var p1 = document.createElement("p");
@@ -17,6 +16,7 @@ var li1  = document.createElement("li");
 var a2 = document.createElement("a");
 var img = document.createElement("img");
 
+var img_div = document.createElement("div");
 
 div.setAttribute("class", "test");
 div1.setAttribute("class", "test1");
@@ -28,7 +28,11 @@ li.setAttribute("id", "demo");
 li.setAttribute("class", "active");
 p.setAttribute("id", "cont");
 p1.setAttribute("id", "content");
-div3.setAttribute("class", "container");
+img_div.setAttribute("class", "container-fluid");
+
+
+// img.src = "banner.jpg";
+// div1.appendChild(img);
 
 
 h3.innerHTML = "Introduction";
@@ -52,13 +56,16 @@ li.appendChild(a1);
 li1.appendChild(a2);
 h3.appendChild(p);
 h31.appendChild(p1);
+img_div.appendChild(img);
+
 img.src = "banner.jpg";
-div3.appendChild(img);
 
 
 document.body.appendChild(nav);
+document.body.appendChild(img_div);
 document.body.appendChild(div);
 document.body.appendChild(div1);
+
 // document.getElementById("demo").innerHTML = '<font size="6">Page 1</font>';
 document.getElementById("cont").contentEditable = "true";
 
