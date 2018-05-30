@@ -19,3 +19,13 @@ p1 {
 nav {
     background-color: aqua;
 }
+
+h3 {
+    font-size: 18px;
+    font-family: cursive; 
+}
+
+img {
+    width: 700px;
+    height: 500px;
+}
