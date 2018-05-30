@@ -17,6 +17,7 @@ var a2 = document.createElement("a");
 var img = document.createElement("img");
 
 var img_div = document.createElement("div");
+var preview_div = document.createElement("div");
 
 div.setAttribute("class", "test");
 div1.setAttribute("class", "test1");
@@ -29,6 +30,7 @@ li.setAttribute("class", "active");
 p.setAttribute("id", "cont");
 p1.setAttribute("id", "content");
 img_div.setAttribute("class", "container-fluid");
+
 
 
 // img.src = "banner.jpg";
@@ -59,7 +61,6 @@ h31.appendChild(p1);
 img_div.appendChild(img);
 
 img.src = "banner.jpg";
-
 
 document.body.appendChild(nav);
 document.body.appendChild(img_div);
